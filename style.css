@@ -1,3 +1,45 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 .my-bg-color{
     background-color: #264653;
 }
+.my-btn-color{
+    background-color: #E76F51;
+    border: none;
+    color: #ffffff;
+}
+.star-color{
+    color: #E76F51;
+   
+}
+hr {
+    color: red;
+    width: 70px;
+    border: 1px solid;
+    margin-top: 5px;
+}
+.feature-bike{
+    
+    filter: grayscale(1);
+}
+
+
+
+
+/*----------------------------------------------------------------------------------
+                                      media query 
+----------------------------------------------------------------------------------- */
+
+   /*---------------------------- for mobile ----------------------- */
+@media only screen and (max-width: 768px) {
+  
+}
+
+/*------------------------------- for tablet ------------------------ */
+@media only screen and (min-width:769px ) and (max-width:992px ) {
+    
+ }
+
+
