@@ -16,9 +16,11 @@ body{
 }
 hr {
     color: red;
-    width: 70px;
     border: 1px solid;
     margin-top: 5px;
+    position: relative;
+    width: 70px;
+    left: 47%;
 }
 .feature-bike{
     
@@ -34,7 +36,9 @@ hr {
 
    /*---------------------------- for mobile ----------------------- */
 @media only screen and (max-width: 768px) {
-  
+  .faq-img{
+      width: 100%;
+  }
 }
 
 /*------------------------------- for tablet ------------------------ */
